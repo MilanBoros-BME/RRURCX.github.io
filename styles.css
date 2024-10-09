@@ -1,0 +1,184 @@
+body {
+    font-family: 'Courier New';
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e5d9ad; /* Light grey background */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align to the top */
+    align-items: flex-start; /* Align to the left */
+    min-height: 100vh;
+}
+
+header {
+    font-weight: 400;
+    background-color: #ffffffca; /* White background */
+    color: #333;
+    padding: 20px 40px; /* Adjust padding for a sleek look */
+    text-align: left; /* Align text to the left */
+    border-radius: 8px; /* Add border radius for a modern effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%; /* Full width */
+    position: fixed;
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+header h1 {
+    font-weight: 400;
+    margin: 0;
+    font-size: 2.0em; /* Adjust font size as needed */
+}
+
+header p {
+    font-weight: 400;
+    margin: 0;
+    font-size: 2.0em; /* Adjust font size as needed */
+}
+
+main {
+    font-weight: 400;
+    width: 60%; /* Adjust width as needed */
+    background-color: #ffffffd5; /* White background */
+    padding: 40px;
+    border-radius: 16px; /* Softer border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align to the top */
+    align-items: flex-start; /* Align to the left */
+    margin-top: 120px; /* Adjust this value as needed */
+    margin-left: 20px; /* Add left margin */
+    padding-bottom: 100px;
+}
+
+section {
+    font-weight: 400;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+h2 {
+    color: #333; /* Dark text */
+    border-bottom: 2px solid #000000; /* Accent color border */
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+footer {
+    font-weight: 400;
+    background-color: #ffffffc5; /* White background */
+    color: #333;    
+    text-align: left; /* Align text to the left */
+    padding: 10px; /* Adjust padding */
+    width: 100%; /* Full width */
+    position: fixed;
+    bottom: 0; /* Align to the bottom */
+    left: 0; /* Align to the left */
+    z-index: 1000; /* Ensure it stays on top */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+img {
+    float: right;
+    margin: 0 0 20px 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+img {
+    float: right;
+    margin: 0 0 20px 20px;
+    border-radius: 8px; /* Rounded corners for a sleek look */
+    max-width: 30%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern effect */
+}
+.experience-img {
+    float: right;
+    margin: 0 0 20px 20px;
+    max-width: 30%; /* Adjust the width as needed */
+}
+.education-img {
+    float: right;
+    margin: 0 0 20px 20px;
+    max-width: 60%;
+    border-radius: 50%; /* Adjust the width as needed */
+}
+
+
+.profile-picture {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#floating-box {
+    position: fixed;
+    top: 250px; /* Adjust position as needed */
+    right: 20px; /* Adjust position as needed */
+    background-color: #ffffffbe; /* White background */
+    color: #333; /* Dark text */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+#floating-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#floating-box li {
+    margin-bottom: 10px;
+}
+
+#floating-box a {
+    color: #000000; /* Accent color */
+    text-decoration: none;
+}
+
+#floating-box a:hover {
+    text-decoration: underline;
+}
+
+#random-user-box {
+    position: fixed;
+    bottom: 20px; /* Adjust position as needed */
+    right: 20px; /* Adjust position as needed */
+    background-color: #ffffff5d; /* White background */
+    color: #333; /* Dark text */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    z-index: 1000; /* Ensure it stays on top */
+    width: 250px; /* Adjust width as needed */
+    text-align: center;
+}
+
+#random-user-box img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#random-user-box p {
+    margin: 5px 0;
+}
